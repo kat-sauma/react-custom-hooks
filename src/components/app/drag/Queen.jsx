@@ -1,15 +1,13 @@
+/* eslint-disable indent */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 function Queen({ id, name, winner, image }) {
     return (
-      <li>
-        <Link key={id} to={`/${id}`} aria-label="queen">
-          <img src={image} alt={name} />
-          <p>{name}</p>
-          <p>Season Winner: {winner}</p>
+      <li aria-label="queen">
+        
               
-        </Link>
+        
       </li>
     );
   }
